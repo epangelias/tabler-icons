@@ -1,0 +1,25 @@
+{
+  "name": "@vaza/tabler-icons",
+  "version": "0.0.1",
+  "exports": "./mod.ts",
+  "imports": {
+    "preact": "npm:preact@^10.24.3"
+  },
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.asynciterable",
+      "deno.ns"
+    ],
+    "jsx": "precompile",
+    "jsxImportSource": "preact",
+    "jsxPrecompileSkipElements": [
+      "a",
+      "img",
+      "source",
+      "body",
+      "html",
+      "head"
+    ]
+  }
+}
